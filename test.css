@@ -1,0 +1,42 @@
+
+.make {
+    width:1045px;
+    padding:80px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #f6f5f5;
+}
+.make > h2 {
+    color:red;
+    font-size: 36px;
+}
+.make > h2::after{
+    border-bottom:1px solid red;
+    content:'';
+    display:block;
+    margin:20px auto;
+    width:100px;
+}
+.make > p{
+    color:rgb(77, 77, 77);
+    font-size: 16px;
+}
+.make > ul {
+    list-style-type:none;
+    margin:60px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.make > ul> li{
+    width:288px; height:399px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.make > ul> li > img{
+    width:100%;
+    transform: .5s;
+}
+.make > ul > li:hover > img{
+    width: 120%;
+}
+
